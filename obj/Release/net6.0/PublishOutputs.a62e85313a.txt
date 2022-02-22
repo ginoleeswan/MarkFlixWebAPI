@@ -1,0 +1,11 @@
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\MarkFlixWebAPI.exe
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\MarkFlixWebAPI.dll
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\MarkFlixWebAPI.deps.json
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\MarkFlixWebAPI.runtimeconfig.json
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\MarkFlixWebAPI.pdb
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\System.Net.Http.Formatting.dll
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\System.Web.Http.dll
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\ginosw\source\repos\MarkFlixWebAPI\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
