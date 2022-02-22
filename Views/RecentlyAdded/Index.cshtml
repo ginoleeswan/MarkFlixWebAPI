@@ -1,0 +1,50 @@
+﻿@model IEnumerable<MarkFlixWebAPI.Models.Movies.Movie>
+
+
+@{
+    ViewData["Title"] = "Movies";
+}
+
+<div class="row">
+    <div class="text-center m-4">
+        <h1 class="display-4">Recently Added Items</h1>
+    </div>
+
+    <table class="table table-bordered table-responsive table-hover sortable">  
+        <thead>
+            <tr>  
+                <th>Title</th>  
+                <th>Parent Title</th> 
+                <th>Media Type</th>
+                <th>Library Name</th> 
+                <th>Was Watched</th>  
+                <th>Guids</th>  
+                <th>Total Plays</th>  
+            </tr>
+        </thead>
+
+        <tbody>
+    @foreach (var d in Model)  
+    {  
+        <tr>  
+            <td>@d.Title</td>
+            <td>@d.ParentTitle</td>  
+            <td>@d.MediaType</td>
+            <td>@d.LibraryName</td>  
+            <td>@d.WasWatched</td>  
+            <td>
+                @foreach (var id in @d.Guids)
+                    {
+                    <p>@id</p>
+                    }
+             </td>  
+            <td>@d.TotalPlays</td>  
+        </tr>  
+    }  
+        </tbody>
+    
+
+    
+</table> 
+
+</div>

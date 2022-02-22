@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MarkFlixWebAPI.Models.Library>
+
+
+@{
+    ViewData["Title"] = "Libraries";
+}
+
+<div class="row justify-content-center">
+    <div class="text-center">
+        <h1 class="display-4">Libraries</h1>
+    </div>
+    @foreach (var item in Model)
+    {
+
+               <div class="col text-center m-3">
+
+              
+                       <a asp-controller="Libraries" asp-action="Users" asp-route-sectionId="@item.SectionId" class="btn btn-primary" >@Html.DisplayFor(modelItem => item.LibraryName)</a>
+                     
+               </div>
+
+    }
+</div>

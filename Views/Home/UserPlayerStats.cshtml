@@ -1,0 +1,20 @@
+﻿@model IEnumerable<MarkFlixWebAPI.Models.UserStats.UserStats>
+
+    @{
+    ViewData["Title"] = "Home Page";
+    }
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+        <div class="card-m1" style="width:350px;">
+            <div class="card-body">
+                <button>
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Platform)</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Total Plays: @Html.DisplayFor(modelItem => item.totalPlays)</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Total Time: @Html.DisplayFor(modelItem => item.totalTime)</h6>
+                </button>
+            </div>
+        </div>
+        }
+    </div>
